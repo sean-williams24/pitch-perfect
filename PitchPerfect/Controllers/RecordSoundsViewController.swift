@@ -30,7 +30,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
   
     }
 
-    // MARK: - Record audio button function.
+    // MARK: - Record audio button function. (simulator problems)
     
     @IBAction func recordAudio(_ sender: Any) {
         configureUI(recording: true)
